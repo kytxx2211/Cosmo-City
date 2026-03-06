@@ -5,8 +5,8 @@ const DiscordStrategy = require("passport-discord").Strategy
 
 const app = express()
 
-const CLIENT_ID = "PUT_DISCORD_CLIENT_ID"
-const CLIENT_SECRET = "PUT_DISCORD_SECRET"
+const CLIENT_ID = "1476965429489565898"
+const CLIENT_SECRET = "h7pNpxeNLxRpKv0uuOf8PlK--k6cl0Dq"
 
 passport.serializeUser((user, done) => done(null, user))
 passport.deserializeUser((obj, done) => done(null, obj))
